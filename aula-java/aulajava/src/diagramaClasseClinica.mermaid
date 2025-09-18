@@ -61,6 +61,7 @@ ativo: Boolean
 papel: String
 }
 
+
 Paciente "1..1"--"0..*" Atendimento: Paciente
 Atendimento "0..*"--"0..1" Convenio: Convenio
 Atendimento "0..*"--"1..1" Profissional: Profissional
